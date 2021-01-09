@@ -2,7 +2,7 @@ $color-rainbow: linear-gradient(to right, red, orange, yellow, green, #3046C5, #
 $color-dark: #60106b;
 $color-black: rgba(0, 0, 0, 0.5);
 $color-white: #FFFFFF; 
-$body-font: "Open Sans", sans-serif;
+$body-font: "Bodoni Moda", italic;
 $header-font: "Dancing Script", cursive;
 $color-footer: #4e3aff;
 $color-navbar: #5637DD;
@@ -15,6 +15,7 @@ body {
 h1 {
     font-family: $header-font;
     color: $color-black;
+    font-weight: bold;
 }
 
 h2, h3 {

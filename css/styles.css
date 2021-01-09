@@ -2,12 +2,14 @@ body {
   font-family: "Open Sans", sans-serif; }
 
 h1 {
-  font-family: "Dancing Script", cursive;
-  color: rgba(0, 0, 0, 0.5); }
+  font-family: "Dancing Script", cursive; 
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold; }
 
 h2, h3 {
   font-family: "Dancing Script", cursive;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  font-weight: bold; }
 
 header h2 {
   color: rgba(0, 0, 0, 0.5); }
