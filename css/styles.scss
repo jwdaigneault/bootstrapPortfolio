@@ -1,0 +1,57 @@
+$color-rainbow: linear-gradient(to right, red, orange, yellow, green, #3046C5, #60106b);
+$color-dark: #60106b;
+$color-black: rgba(0, 0, 0, 0.5);
+$color-white: #FFFFFF; 
+$body-font: "Open Sans", sans-serif;
+$header-font: "Dancing Script", cursive;
+$color-footer: #4e3aff;
+$color-navbar: #5637DD;
+$color-carousel: #5637DD;
+
+body {
+    font-family: $body-font;
+}
+
+h1 {
+    font-family: $header-font;
+    color: $color-black;
+}
+
+h2, h3 {
+    font-family: $header-font;
+    color: $color-white;
+}
+
+header h2 {
+    color: $color-black;
+}
+
+.site-footer{
+    background-image: $color-footer;
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: $color-rainbow;
+    color: $color-black;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+
+}
+
+.navbar {
+    background-color: $color-navbar; 
+}
+.carousel-caption {
+    background-color: $color-black;
+}
+
+.carousel {
+    border: solid $color-carousel;
+}

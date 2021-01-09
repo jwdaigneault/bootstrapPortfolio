@@ -1,47 +1,37 @@
 body {
-    font-family: "Open Sans", sans-serif;
-}
+  font-family: "Open Sans", sans-serif; }
 
 h1 {
-    font-family: "Dancing Script", cursive; 
-    color: black;
-}
+  font-family: "Dancing Script", cursive;
+  color: rgba(0, 0, 0, 0.5); }
 
 h2, h3 {
-    font-family: "Dancing Script", cursive; 
-    color: white;
-}
+  font-family: "Dancing Script", cursive;
+  color: #FFFFFF; }
 
 header h2 {
-    color: black;
-}
+  color: rgba(0, 0, 0, 0.5); }
 
-.site-footer{
-    background-image: #4e3aff;
-    padding: 20px 0;
-}
+.site-footer {
+  background-image: #4e3aff;
+  padding: 20px 0; }
 
 .jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, red, orange, yellow, green, #3046C5, #60106b);
-    color: rgb(8, 8, 8);
-}
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, red, orange, yellow, green, #3046C5, #60106b);
+  color: rgba(0, 0, 0, 0.5); }
 
 .row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
-
-}
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
 
 .navbar {
-    background-color: #5637DD
-}
+  background-color: #5637DD; }
+
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
-}
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-    border: solid #5637DD;
-}
+  border: solid #5637DD; }
